@@ -1,0 +1,11 @@
+language: erlang
+otp_release:
+    - 21.3
+    - 22.1
+script:
+    - rebar3 check
+    - rebar3 as prod tar
+
+cache:
+    directories:
+        - "$HOME/.cache/rebar3"

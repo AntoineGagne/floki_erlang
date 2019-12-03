@@ -1,0 +1,15 @@
+{application, floki_erlang,
+ [{description, "A wrapper over the `floki` Elixir library."},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {mod, {floki_erlang_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["BSD3"]},
+  {links, []}
+ ]}.
