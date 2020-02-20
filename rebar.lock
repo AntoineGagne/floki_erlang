@@ -1,8 +1,8 @@
 {"1.1.0",
-[{<<"floki">>,{pkg,<<"floki">>,<<"0.23.0">>},0},
- {<<"html_entities">>,{pkg,<<"html_entities">>,<<"0.4.0">>},1}]}.
+[{<<"floki">>,{pkg,<<"floki">>,<<"0.26.0">>},0},
+ {<<"html_entities">>,{pkg,<<"html_entities">>,<<"0.5.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"floki">>, <<"956AB6DBA828C96E732454809FB0BD8D43CE0979B75F34DE6322E73D4C917829">>},
- {<<"html_entities">>, <<"F2FEE876858CF6AAA9DB608820A3209E45A087C5177332799592142B50E89A6B">>}]}
+ {<<"floki">>, <<"4DF88977E2E357C6720E1B650F613444BFB48C5ACFC6A0C646AB007D08AD13BF">>},
+ {<<"html_entities">>, <<"40F5C5B9CBE23073B48A4E69C67B6C11974F623A76165E2B92D098C0E88CCB1D">>}]}
 ].
