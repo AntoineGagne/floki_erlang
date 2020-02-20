@@ -5,6 +5,8 @@
          attribute/2,
          attribute/3,
          children/2,
+         parse_document/1,
+         parse_fragment/1,
          filter_out/2,
          map/2,
          raw_html/2,
@@ -49,6 +51,12 @@ find(Html, Selector) ->
 
 parse(Html) ->
     'Elixir.Floki':parse(Html).
+
+parse_document(Html) ->
+    'Elixir.Floki':parse_document(Html).
+
+parse_fragment(Fragment) ->
+    'Elixir.Floki':parse_fragment(Fragment).
 
 %%%===================================================================
 %%% Internal functions
